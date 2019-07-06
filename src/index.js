@@ -1,22 +1,59 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
+import { booleanLiteral } from '@babel/types';
+
+let clicked = booleanLiteral
 
 function Square(props) {
     return (
       <button className="square" onClick={props.onClick}>
         {props.value}
+        {clicked = true}
+        {console.log("truthy")}
+        
       </button>
+      
     );
   }
+  class Toggle extends React.Component {
+    constructor(props) {
+      super(props);
+      this.state = {isToggleOn: true};
   
+      // This binding is necessary to make `this` work in the callback
+      this.handleClick = this.handleClick.bind(this);
+    }
+  
+    handleClick() {
+      this.setState(state => ({
+        isToggleOn: !state.isToggleOn
+      }));
+    }
+  
+    render() {
+      return (
+        <button onClick={this.handleClick}>
+          {this.state.isToggleOn ? 'ON' : 'OFF'}
+          {console.log(this.state)}
+        </button>
+      );
+    }
+  }
+  
+  ReactDOM.render(
+    <Toggle />,
+    document.getElementById('root')
+  );
   class Board extends React.Component {
     renderSquare(i) {
       return (
         <Square
-          value={this.props.squares[i]}
+          value={this.props.squares.state}
           onClick={() => this.props.onClick(i)}
+
         />
+        
       );
     }
   
@@ -47,13 +84,15 @@ function Square(props) {
     constructor(props) {
       super(props);
       this.state = {
-        history: [
-          {
+        //clicked = false
+        
+       history: [
+         {
             squares: Array(9).fill(null)
           }
-        ],
-        stepNumber: 0,
-        xIsNext: true
+         ],
+         stepNumber: 0,
+         xIsNext: true
       };
     }
   
@@ -79,7 +118,8 @@ function Square(props) {
     jumpTo(step) {
       this.setState({
         stepNumber: step,
-        xIsNext: (step % 2) === 0
+        xIsNext: (step % 2) === 0,
+        clicked: true
       });
     }
   
