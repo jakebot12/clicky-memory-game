@@ -3,6 +3,7 @@
   "name": "clicky-memory-game",
   "version": "0.1.0",
   "private": true,
+  "main": "server.js",
   "dependencies": {
     "gh-pages": "^2.0.1",
     "react": "^16.8.6",
