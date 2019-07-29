@@ -1,0 +1,30 @@
+.card {
+    background: rgb(112, 8, 8);
+    border-radius: 2px;
+    height: 160px;
+    margin: 16px;
+    width: 160px;
+    text-align: left;
+    border-radius: 5px;
+  }
+  
+  .card > .img-container {
+    text-align: center;
+    image-rendering: center;
+    border-radius: 5px;
+    margin-top: 5px
+  }
+  
+  
+  .card > .content {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  
+  .card > .content > ul {
+    list-style-type: grid;
+  }
+  
+  .card > .content > ul > li {
+    margin-top: 18px;
+  }
