@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/clicky-memory-game/static/css/main.98420bb4.chunk.css",
+    "main.js": "/clicky-memory-game/static/js/main.4b6ccd76.chunk.js",
+    "main.js.map": "/clicky-memory-game/static/js/main.4b6ccd76.chunk.js.map",
+    "runtime~main.js": "/clicky-memory-game/static/js/runtime~main.83671481.js",
+    "runtime~main.js.map": "/clicky-memory-game/static/js/runtime~main.83671481.js.map",
+    "static/js/2.98dcc9dd.chunk.js": "/clicky-memory-game/static/js/2.98dcc9dd.chunk.js",
+    "static/js/2.98dcc9dd.chunk.js.map": "/clicky-memory-game/static/js/2.98dcc9dd.chunk.js.map",
+    "index.html": "/clicky-memory-game/index.html",
+    "precache-manifest.a07b3dabfae171b6983fb9519dda0eda.js": "/clicky-memory-game/precache-manifest.a07b3dabfae171b6983fb9519dda0eda.js",
+    "service-worker.js": "/clicky-memory-game/service-worker.js",
+    "static/css/main.98420bb4.chunk.css.map": "/clicky-memory-game/static/css/main.98420bb4.chunk.css.map",
+    "static/media/banded-gecko.jpg": "/clicky-memory-game/static/media/banded-gecko.3d79bec3.jpg",
+    "static/media/bark-scorpion.jpg": "/clicky-memory-game/static/media/bark-scorpion.9ba250ce.jpg",
+    "static/media/blue-speckled-rattlesnake.jpg": "/clicky-memory-game/static/media/blue-speckled-rattlesnake.b38a7022.jpg",
+    "static/media/cactus-wren.jpg": "/clicky-memory-game/static/media/cactus-wren.d8a45e15.jpg",
+    "static/media/desert-iguana.jpg": "/clicky-memory-game/static/media/desert-iguana.75a12cd1.jpg",
+    "static/media/desert-toad.jpg": "/clicky-memory-game/static/media/desert-toad.25bd1cf4.jpg",
+    "static/media/earless-lizard.jpg": "/clicky-memory-game/static/media/earless-lizard.0727ca10.jpg",
+    "static/media/leafnosed-snake.jpg": "/clicky-memory-game/static/media/leafnosed-snake.388d76cb.jpg",
+    "static/media/mojave-rattlesnake.jpg": "/clicky-memory-game/static/media/mojave-rattlesnake.021ca244.jpg",
+    "static/media/sidewinder-rattlesnake.jpg": "/clicky-memory-game/static/media/sidewinder-rattlesnake.468d96c7.jpg",
+    "static/media/striped-tail-scorpion.jpg": "/clicky-memory-game/static/media/striped-tail-scorpion.bedcef97.jpg",
+    "static/media/tailless-whip-scorpion.jpg": "/clicky-memory-game/static/media/tailless-whip-scorpion.d23e1bc2.jpg",
+    "static/media/tarantula.jpg": "/clicky-memory-game/static/media/tarantula.fe69fad8.jpg",
+    "static/media/western-diamondback-rattlesnake.jpg": "/clicky-memory-game/static/media/western-diamondback-rattlesnake.df2d2493.jpg"
+  }
+}
